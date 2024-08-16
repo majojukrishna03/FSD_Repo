@@ -18,15 +18,15 @@ console.log(abc.length);
 */
 
 //function :
-    // function pattern(a,n) {
-    //     for (let i = 1;i <= n;i++) {
-    //         console.log(a.repeat(i));       //repeat() is the inbuilt function used for repetition of string in javascript.
-    //     }
-    // }
+// function pattern(a,n) {
+//     for (let i = 1;i <= n;i++) {
+//         console.log(a.repeat(i));       //repeat() is the inbuilt function used for repetition of string in javascript.
+//     }
+// }
 
-    // a = '#'
-    // n = 7
-    // pattern(a,n)
+// a = '#'
+// n = 7
+// pattern(a,n)
 
 for(let i = 0 ; i <= 7 ; i++ ) {
     console.log('#'.repeat(i));       ////repeat() is the inbuilt function used for repetition of string in javascript.
