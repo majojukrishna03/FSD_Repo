@@ -28,7 +28,16 @@ console.log(abc.length);
 // n = 7
 // pattern(a,n)
 
+// using repeat() method:
 for(let i = 0 ; i <= 7 ; i++ ) {
     console.log('#'.repeat(i));       ////repeat() is the inbuilt function used for repetition of string in javascript.
 }
+
+
+let pattern = "#"; // Start with a single hash character
+for (let i = 1; i <= 7; i++) {
+    console.log(pattern);
+    pattern += "#"; // Adding another hash character for the next line
+}
+
 
