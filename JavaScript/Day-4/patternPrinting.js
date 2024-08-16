@@ -17,18 +17,11 @@ console.log(abc.length);
 // → 3
 */
 
-//function :
-    // function pattern(a,n) {
-    //     for (let i = 1;i <= n;i++) {
-    //         console.log(a.repeat(i));       //repeat() is the inbuilt function used for repetition of string in javascript.
-    //     }
-    // }
+let pattern = "#"; // Start with a single hash character
 
-    // a = '#'
-    // n = 7
-    // pattern(a,n)
-
-for(let i = 0 ; i <= 7 ; i++ ) {
-    console.log('#'.repeat(i));       ////repeat() is the inbuilt function used for repetition of string in javascript.
+for (let i = 1; i <= 7; i++) {
+    console.log(pattern);
+    pattern += "#"; // Adding another hash character for the next line
 }
+
 
