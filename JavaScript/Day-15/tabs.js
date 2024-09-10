@@ -51,4 +51,3 @@ function asTabs(node) {
   
   // Initialize the tabs when the page loads
   asTabs(document.querySelector('tab-panel'));
-  
