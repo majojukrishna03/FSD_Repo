@@ -40,6 +40,7 @@ const MOUNTAINS = [
 </script>
 */
 
+
 const MOUNTAINS = [
     {name: "Kilimanjaro", height: 5895, place: "Tanzania"},
     {name: "Everest", height: 8848, place: "Nepal"},
